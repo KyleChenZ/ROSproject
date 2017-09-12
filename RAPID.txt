@@ -1,0 +1,43 @@
+MODULE Module1
+	CONST robtarget Target_10:=[[930.871381575,-283.183029048,817.226124575],[0,0.891420104,0.453177889,0],[-1,0,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget Target_20:=[[930.909916692,-196.472727978,817.18172639],[0,0.891420097,0.453177902,0],[-1,0,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget Target_30:=[[930.940398308,-196.47914677,901.305326981],[0,0.891420093,0.453177909,0],[-1,0,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget Target_40:=[[930.971683608,-99.170671905,901.274169858],[0,0.891420092,0.453177912,0],[-1,0,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget Target_50:=[[931.009585762,-99.174709388,834.123800425],[0,0.891420092,0.453177912,0],[-1,0,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	CONST robtarget Target_60:=[[931.047806996,10.127336301,834.081548921],[0,0.891420097,0.453177903,0],[0,0,1,0],[9E+09,9E+09,9E+09,9E+09,9E+09,9E+09]];
+	PROC main()
+        VAR iodev io_device;
+        Open "c:/temp/input.txt", io_device\Read;
+        reg1 := ReadNum(io_device);
+        Close io_device;
+        IF reg1>0 THEN
+	        R1;
+        ELSE
+            R2;
+        ENDIF
+	ENDPROC
+    
+    PROC R1()
+        MoveL Target_10,v1000,z100,tool0\WObj:=wobj0;
+        MoveL Target_60,v1000,z100,tool0\WObj:=wobj0;
+        WaitTime 0.2;
+        MoveL Target_60,v1000,z100,tool0\WObj:=wobj0;
+        MoveL Target_10,v1000,z100,tool0\WObj:=wobj0;
+    ENDPROC
+    
+    PROC R2()
+        MoveL Target_10,v1000,z100,tool0\WObj:=wobj0;
+	    MoveL Target_20,v1000,z100,tool0\WObj:=wobj0;
+	    MoveL Target_30,v1000,z100,tool0\WObj:=wobj0;
+	    MoveL Target_40,v1000,z100,tool0\WObj:=wobj0;
+	    MoveL Target_50,v1000,z100,tool0\WObj:=wobj0;
+	    MoveL Target_60,v1000,z100,tool0\WObj:=wobj0;
+        WaitTime 0.2;
+        MoveL Target_60,v1000,z100,tool0\WObj:=wobj0;
+	    MoveL Target_50,v1000,z100,tool0\WObj:=wobj0;
+	    MoveL Target_40,v1000,z100,tool0\WObj:=wobj0;
+	    MoveL Target_30,v1000,z100,tool0\WObj:=wobj0;
+	    MoveL Target_20,v1000,z100,tool0\WObj:=wobj0;
+	    MoveL Target_10,v1000,z100,tool0\WObj:=wobj0;
+    ENDPROC
+ENDMODULE
