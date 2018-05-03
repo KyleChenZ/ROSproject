@@ -1,0 +1,2 @@
+depthimage_to_laserscan:openslam_gmapping:slam_gmapping/gmapping:slam_gmapping/slam_gmapping:zed-ros-wrapper-2.1.x
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/SeniorDesign/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/SeniorDesign/install -G Unix Makefiles

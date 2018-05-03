@@ -1,0 +1,8 @@
+prefix=/home/nvidia/SeniorDesign/devel
+
+Name: zed_wrapper
+Description: Description of zed_wrapper
+Version: 1.0.0
+Cflags: -I/home/nvidia/SeniorDesign/devel/include
+Libs: -L/home/nvidia/SeniorDesign/devel/lib 
+Requires: roscpp rosconsole sensor_msgs opencv image_transport dynamic_reconfigure tf2_ros tf2_geometry_msgs pcl_conversions

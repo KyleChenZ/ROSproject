@@ -1,0 +1,8 @@
+prefix=/home/nvidia/SeniorDesign/install
+
+Name: openslam_gmapping
+Description: Description of openslam_gmapping
+Version: 0.1.2
+Cflags: -I/home/nvidia/SeniorDesign/install/include
+Libs: -L/home/nvidia/SeniorDesign/install/lib -lgridfastslam -lscanmatcher -lsensor_base -lsensor_range -lsensor_odometry -lutils
+Requires: 
