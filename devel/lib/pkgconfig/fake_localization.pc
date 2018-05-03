@@ -1,0 +1,8 @@
+prefix=/home/kyle/SeniorDesign/devel
+
+Name: fake_localization
+Description: Description of fake_localization
+Version: 1.14.3
+Cflags: 
+Libs: -L/home/kyle/SeniorDesign/devel/lib 
+Requires: geometry_msgs nav_msgs roscpp rospy

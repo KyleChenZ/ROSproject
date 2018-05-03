@@ -1,0 +1,8 @@
+prefix=/home/kyle/SeniorDesign/devel
+
+Name: depthimage_to_laserscan
+Description: Description of depthimage_to_laserscan
+Version: 1.0.7
+Cflags: -I/home/kyle/SeniorDesign/devel/include -I/home/kyle/SeniorDesign/src/depthimage_to_laserscan/include
+Libs: -L/home/kyle/SeniorDesign/devel/lib -lDepthImageToLaserScan -lDepthImageToLaserScanROS -lDepthImageToLaserScanNodelet
+Requires: dynamic_reconfigure image_geometry image_transport nodelet roscpp sensor_msgs

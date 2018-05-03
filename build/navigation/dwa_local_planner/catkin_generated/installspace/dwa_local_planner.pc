@@ -1,0 +1,8 @@
+prefix=/home/kyle/SeniorDesign/install
+
+Name: dwa_local_planner
+Description: Description of dwa_local_planner
+Version: 1.14.3
+Cflags: -I/home/kyle/SeniorDesign/install/include
+Libs: -L/home/kyle/SeniorDesign/install/lib -ldwa_local_planner
+Requires: dynamic_reconfigure nav_msgs pluginlib roscpp
