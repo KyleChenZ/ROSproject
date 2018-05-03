@@ -1,0 +1,8 @@
+prefix=/home/kyle/SeniorDesign/install
+
+Name: clear_costmap_recovery
+Description: Description of clear_costmap_recovery
+Version: 1.14.3
+Cflags: -I/home/kyle/SeniorDesign/install/include
+Libs: -L/home/kyle/SeniorDesign/install/lib -lclear_costmap_recovery
+Requires: costmap_2d nav_core pluginlib roscpp tf

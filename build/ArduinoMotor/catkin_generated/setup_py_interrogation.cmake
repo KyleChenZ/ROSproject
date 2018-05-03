@@ -1,0 +1,6 @@
+set(ArduinoMotor_SETUP_PY_VERSION "0.0.0")
+set(ArduinoMotor_SETUP_PY_SCRIPTS "")
+set(ArduinoMotor_SETUP_PY_PACKAGES "ArduinoMotor")
+set(ArduinoMotor_SETUP_PY_PACKAGE_DIRS "src/ArduinoMotor")
+set(ArduinoMotor_SETUP_PY_MODULES "")
+set(ArduinoMotor_SETUP_PY_MODULE_DIRS "")

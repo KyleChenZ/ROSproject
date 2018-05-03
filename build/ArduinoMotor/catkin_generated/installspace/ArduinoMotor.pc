@@ -1,0 +1,8 @@
+prefix=/home/kyle/SeniorDesign/install
+
+Name: ArduinoMotor
+Description: Description of ArduinoMotor
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kyle/SeniorDesign/install/lib 
+Requires: 
