@@ -1,8 +1,0 @@
-prefix=/home/kyle/SeniorDesign/devel
-
-Name: ArduinoMotor
-Description: Description of ArduinoMotor
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/kyle/SeniorDesign/devel/lib 
-Requires: 

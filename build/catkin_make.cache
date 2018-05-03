@@ -1,2 +1,0 @@
-ArduinoMotor:depthimage_to_laserscan:openslam_gmapping:slam_gmapping/gmapping:slam_gmapping/slam_gmapping:zed-ros-wrapper
--DCATKIN_DEVEL_PREFIX=/home/kyle/SeniorDesign/devel -DCMAKE_INSTALL_PREFIX=/home/kyle/SeniorDesign/install -G Unix Makefiles

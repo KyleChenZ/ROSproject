@@ -1,8 +1,0 @@
-prefix=/home/kyle/SeniorDesign/devel
-
-Name: global_planner
-Description: Description of global_planner
-Version: 1.14.3
-Cflags: -I/home/kyle/SeniorDesign/devel/include -I/home/kyle/SeniorDesign/src/navigation/global_planner/include
-Libs: -L/home/kyle/SeniorDesign/devel/lib -lglobal_planner
-Requires: costmap_2d dynamic_reconfigure geometry_msgs nav_core navfn nav_msgs pluginlib roscpp tf

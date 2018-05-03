@@ -1,8 +1,0 @@
-prefix=/home/kyle/SeniorDesign/devel
-
-Name: openslam_gmapping
-Description: Description of openslam_gmapping
-Version: 0.1.2
-Cflags: -I/home/kyle/SeniorDesign/src/openslam_gmapping/include
-Libs: -L/home/kyle/SeniorDesign/devel/lib -lgridfastslam -lscanmatcher -lsensor_base -lsensor_range -lsensor_odometry -lutils
-Requires: 

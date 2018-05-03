@@ -1,8 +1,0 @@
-prefix=/home/kyle/SeniorDesign/install
-
-Name: map_server
-Description: Description of map_server
-Version: 1.14.3
-Cflags: -I/home/kyle/SeniorDesign/install/include
-Libs: -L/home/kyle/SeniorDesign/install/lib -lmap_server_image_loader
-Requires: roscpp nav_msgs tf2

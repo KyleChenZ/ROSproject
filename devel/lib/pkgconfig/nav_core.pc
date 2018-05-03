@@ -1,8 +1,0 @@
-prefix=/home/kyle/SeniorDesign/devel
-
-Name: nav_core
-Description: Description of nav_core
-Version: 1.14.3
-Cflags: -I/home/kyle/SeniorDesign/src/navigation/nav_core/include
-Libs: -L/home/kyle/SeniorDesign/devel/lib 
-Requires: std_msgs geometry_msgs tf costmap_2d

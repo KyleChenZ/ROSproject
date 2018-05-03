@@ -1,0 +1,8 @@
+prefix=/home/nvidia/SeniorDesign/install
+
+Name: ArduinoMotor
+Description: Description of ArduinoMotor
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nvidia/SeniorDesign/install/lib 
+Requires: 
